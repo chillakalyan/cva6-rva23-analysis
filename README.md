@@ -8,12 +8,12 @@ RVA23 profile are currently supported in CVA6 and identify potential gaps
 that could be implemented to improve compliance.
 
 This investigation includes:
-
+```
 • studying the RVA23 specification  
 • analyzing the CVA6 RTL implementation  
 • searching the source code for instruction support  
 • documenting extension coverage and missing features  
-
+```
 ---
 
 # Background
@@ -60,9 +60,9 @@ cva6-rva23-analysis
 ```
 
 ### File Descriptions
-
+```
 **rva23_requirements.md**
-
+```
 Summary of the RVA23 ISA requirements and required extensions.
 
 **cva6_extension_analysis.md**
@@ -104,12 +104,12 @@ grep -rn "cbo" core/
 ```
 
 These searches help locate instruction implementations in modules such as:
-
+```
 • decoder  
 • ALU  
 • load/store unit  
 • cache subsystem  
-
+```
 ---
 
 # Preliminary Findings
@@ -133,12 +133,12 @@ may not yet be implemented.
 # Possible Future Work
 
 Potential improvements for RVA23 compliance include:
-
+```
 • implementing missing cache block instructions  
 • completing Zicbom/Zicboz ISA support  
 • extending decoder logic for new instructions  
 • integrating cache maintenance operations with the LSU  
-
+```
 ---
 
 # License
