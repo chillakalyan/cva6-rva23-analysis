@@ -59,36 +59,6 @@ cva6-rva23-analysis
    
 ```
 
-### File Descriptions
-```
-**rva23_requirements.md**
-```
-Summary of the RVA23 ISA requirements and required extensions.
-
-**cva6_extension_analysis.md**
-
-Analysis comparing RVA23 extension requirements with
-the current CVA6 RTL implementation.
-
-**cbo_extension_notes.md**
-
-Notes on Cache Block Operations (Zicbom / Zicboz) and
-their possible implementation in CVA6.
-
-**architecture_notes.md**
-
-Overview of the CVA6 pipeline architecture and major modules.
-
-**scripts/search_extensions.sh**
-
-Script used to search the CVA6 RTL source for instruction
-and extension support.
-
-**diagrams/**
-
-Workflow and architecture diagrams created during the investigation.
-
----
 
 # Investigation Method
 
