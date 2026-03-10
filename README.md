@@ -32,20 +32,31 @@ software ecosystems and future hardware platforms.
 
 # Repository Structure
 ```
-.
+cva6-rva23-analysis
+│
 ├── diagrams
-│ └── workflow diagrams of the investigation process
+│   ├── cva6_pipeline.png
+│   │
+│   └── cva6_rva23_workflow.png
+│
+├── docs
+│   ├── architecture_notes.md
+│   │
+│   ├── cbo_extension_notes.md
+│   │
+│   ├── cva6_extension_analysis.md
+│   │
+│   ├── rtl_instruction_mapping.md
+│   │
+│   └── rva23_requirements.md
 │
 ├── scripts
-│ └── search_extensions.sh
+│   └── search_extensions.sh
 │
-├── architecture_notes.md
+├── LICENSE
 │
-├── cbo_extension_notes.md
-│
-├── cva6_extension_analysis.md
-│
-└── rva23_requirements.md
+└── README.md
+   
 ```
 
 ### File Descriptions
